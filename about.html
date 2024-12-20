@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everything About Everest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Hamburger Menu -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav class="nav-bar">
+            <img src="img/logo.png" alt="Everest" class="logo">
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><button class="btn btn-secondary">71518705</button></li>
+            </ul>
+        </nav>
+    <!-- Slideshow Section -->
+    <section class="slideshow-section">
+        <h1>Everything About Everest</h1>
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="img/1.jpg" alt="Mount Everest Location">
+            </div>
+            <div class="slide fade">
+                <img src="img/1.jpg" alt="Height of Everest">
+            </div>
+            <div class="slide fade">
+                <img src="img/1.jpg" alt="Death Zone on Everest">
+            </div>
+        </div>
+        <div class="slideshow-dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+    <!-- Facts Section -->
+    <div class="container-grid">
+        <!-- Main Heading -->
+        <h1 class="main-heading">Important Facts About Everest</h1>
+
+        <!-- Other Columns -->
+        <div class="column">
+            <h2>Where is Mount Everest?</h2>
+            <img src="img/1.jpg" alt="Mount Everest Location">
+            <p>Mount Everest is located in the Mahalangur Mountain range, a section of the Himalayas in Southern Asia. It is shared by Nepal and Tibet/China, with the summit being the precise point of the International Border between the two countries.</p>
+        </div>
+        <div class="column">
+            <h2>How High is Mount Everest?</h2>
+            <img src="img/height.jpg" alt="Height of Everest">
+            <p>Mount Everest has the highest summit in the world, currently standing at 29,028ft (8,848m) above sea level. It is considered to be getting taller as plate tectonics are adding to its height.</p>
+        </div>
+        <div class="column">
+            <h2>Death Zone on Everest?</h2>
+            <img src="img/death.png" alt="Death Zone on Everest">
+            <p>The "Death Zone" refers to altitudes above 26,000ft (8,000m), where the amount of oxygen is insufficient to sustain human life. Climbers face severe risks in this area.</p>
+        </div>
+        <div class="column">
+            <h2>How Many People Have Died?</h2>
+            <img src="img/d.jpg" alt="Deaths on Everest">
+            <p>As of February 16, 282 people have lost their lives on Everest. Due to harsh conditions, most bodies remain in place, making Everest a "graveyard" for climbers.</p>
+        </div>
+        <div class="column">
+            <h2>Difficulty Breathing?</h2>
+            <img src="img/d.jpg" alt="Difficulty Breathing on Everest">
+            <p>Due to low oxygen levels, climbers experience severe difficulty breathing, requiring supplemental oxygen. Without acclimatization, one could collapse within minutes.</p>
+        </div>
+        <div class="column">
+            <h2>How Cold is it at the Peak?</h2>
+            <img src="img/d.jpg" alt="Cold Peak of Everest">
+            <p>In January, the coldest month, temperatures drop to -60°C, while in July, they average -19°C. The peak temperature never rises above 0°C.</p>
+        </div>
+        <div class="column">
+            <h2>Isn’t Everest the Tallest?</h2>
+            <img src="img/height.jpg" alt="Tallest Mountain">
+            <p>While Mount Everest has the highest altitude, Mauna Kea in Hawaii is taller when measured from base to peak, with a height of 33,500ft.</p>
+        </div>
+        <div class="column">
+            <h2>Who is "Green Boots"?</h2>
+            <img src="img/d.jpg" alt="Green Boots on Everest">
+            <p>"Green Boots" is an iconic body landmark believed to belong to Indian climber Tsewang Paljor. It has remained in place since 1996.</p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
